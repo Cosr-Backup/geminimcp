@@ -50,22 +50,19 @@
 
   </details>
 
-**2.** 在Claude Code中**使用Gemini-MCP**。
+**2.** 在Claude Code中**使用Gemini-MCP**，您可以通过[该链接](https://codepen.io/Studio-Guda/full/yyOpBVZ)进行在线预览！
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="《深冬雪境 · 天气卡片》CC with GeminiMCP" src="https://codepen.io/Studio-Guda/embed/yyOpBVZ?default-tab=&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true">
-      See the Pen <a href="https://codepen.io/Studio-Guda/pen/yyOpBVZ">
-  《深冬雪境 · 天气卡片》CC with GeminiMCP</a> by Studio Guda (<a href="https://codepen.io/Studio-Guda">@Studio-Guda</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+<video height="240">
+    <source src="./images/ccwgemini.mp4" type="video/mp4">
+</video>
 
 
-**3.** 仅使用Claude Code。
+**3.** 仅使用Claude Code，您可以通过[该链接](https://codepen.io/Studio-Guda/full/ogxpvGY)进行在线预览！
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="《深冬雪境 · 天气卡片》CC " src="https://codepen.io/Studio-Guda/embed/ogxpvGY?default-tab=&theme-id=light" frameborder="no" loading="lazy" allowtransparency="true">
-      See the Pen <a href="https://codepen.io/Studio-Guda/pen/ogxpvGY">
-  《深冬雪境 · 天气卡片》CC </a> by Studio Guda (<a href="https://codepen.io/Studio-Guda">@Studio-Guda</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+<video height="240">
+    <source src="./images/cc.mp4" type="video/mp4">
+</video>
+
 
 ---
 

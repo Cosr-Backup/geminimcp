@@ -45,13 +45,17 @@ def run_shell_command(cmd: list[str]) -> Generator[str, None, None]:
 
     process = subprocess.Popen(
         popen_cmd,
-        shell=False,  # Safer: no shell injection
-        stdin=subprocess.PIPE,  # Prevent process from waiting for input
+        shell=False,
+        stdin=subprocess.PIPE, 
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         universal_newlines=True,
         encoding="utf-8",
     )
+
+    # 【新增代码】必须立即关闭 stdin，否则子进程会一直等待输入导致死锁
+    if process.stdin:
+        process.stdin.close()
 
     output_queue: queue.Queue[str] = queue.Queue()
 
